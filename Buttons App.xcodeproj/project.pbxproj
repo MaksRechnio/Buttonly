@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EDDAB58A87E4E88A913E255 /* ThreeDPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDFF0623F247778B2EAB78 /* ThreeDPushButton.swift */; };
+		118595C50D68460CBF571BE9 /* GravityFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E61147F24431489587416 /* GravityFloatButton.swift */; };
+		19A0E214365A4F0CAFCCE696 /* Buttons_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A04A06E8C404959991C549B /* Buttons_AppApp.swift */; };
+		28A0908177B44BE68816A08B /* NeonGlowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5977F433744FAA6D3856E /* NeonGlowButton.swift */; };
+		2C445C8747FB4F28A9550B52 /* RippleEffectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111E813A8A14B24948F4C36 /* RippleEffectButton.swift */; };
+		3752089587904B56B378E23C /* ButtonRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1D13FC5F149DB87B4E0E3 /* ButtonRenderer.swift */; };
+		4DA888CC78234ABB82A04908 /* LiquidMorphButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7407C2016984155B2D13379 /* LiquidMorphButton.swift */; };
+		4EB075ED51F24194880D0F99 /* GlassmorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE5401E38B441C90BAC2D0 /* GlassmorphicButton.swift */; };
+		504BB2ED5FD34A89B0906D8A /* FullScreenButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEF9ABF3FF4DB3804DF0EF /* FullScreenButtonView.swift */; };
+		55254344258245EAA57BDC2B /* PulseRingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B4E67C51844448694D199 /* PulseRingButton.swift */; };
+		58324558E9084D28846C75A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82661096140C4F709DE1F343 /* ContentView.swift */; };
+		58368FD70631498CB1141D05 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B22B4940E549B588D87235 /* ButtonDesign.swift */; };
+		595849B7142F4A4884197C2C /* HolographicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD6F22C6CE4552AF44DD78 /* HolographicButton.swift */; };
+		5CCB51A7C16D4451A3C251D6 /* ShimmerShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1C786336C4C23B53C7D11 /* ShimmerShineButton.swift */; };
+		5DB83CBFC6894D978F985C08 /* TypewriterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC0C30D4734CD6AFB9BB5A /* TypewriterButton.swift */; };
+		6CFB7C0ED1FB4F1D8D066B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD98E9EA12E4B4E92D6F2F5 /* Assets.xcassets */; };
+		72CF0A92FFE44C30A5B99860 /* GradientWaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41982397EF394098BA2968F8 /* GradientWaveButton.swift */; };
+		7844BE7554A6497F80E8C166 /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647B0670DE64907938452AC /* NeumorphicButton.swift */; };
+		859B837F3F3B44F99ED942EF /* RetroPixelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0D843E0654D92A8644756 /* RetroPixelButton.swift */; };
+		865A5A0E9590488C9E9AF1A1 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE17731F83C4F65A46D3D72 /* HapticManager.swift */; };
+		86E3F110DD6D40B1B5B7FDE5 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11492740B08A4427943A0D2F /* GlassCard.swift */; };
+		8AAFE70330474EDF87131D45 /* FuturisticBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91118D5F1142AB8B730F45 /* FuturisticBackground.swift */; };
+		94E25A0C18BA47BAB7E820D0 /* ElasticJellyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3CCA6493E4EEC8F7F3930 /* ElasticJellyButton.swift */; };
+		9B9D10F95662471F8A438F30 /* CircuitBoardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1502EE1AE47F3B25D79C4 /* CircuitBoardButton.swift */; };
+		B9EEAEE6237D4E4492CC3270 /* AuroraBorealisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7D2B55C04459D8AF1549D /* AuroraBorealisButton.swift */; };
+		C4CE45A54FEB4EBE9F1F7E7A /* MagneticPullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149F68326624F43A8F0A905 /* MagneticPullButton.swift */; };
+		CDB96844D0DE49878D75BA97 /* ParticleBurstButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05472250C5414A0590E66632 /* ParticleBurstButton.swift */; };
+		DBB9E352A59842C2A02BC32D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CE5E34E8C449DADDBADBE /* WelcomeView.swift */; };
+		EBD9484DA0B640A89617915A /* CyberGlitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD52BC759D4A8686DD7A82 /* CyberGlitchButton.swift */; };
+		FF6FD6E9808F49DBB88B148C /* ButtonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F7D53435EB479182DAC617 /* ButtonGridView.swift */; };
+		FFBC0005490D45EEA182690D /* MorphIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6492B0725A02497B9E81CB72 /* MorphIconButton.swift */; };
+		AA1111110001000100010001 /* TutorialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2222220001000100010001 /* TutorialData.swift */; };
+		AA1111110002000200020002 /* TutorialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2222220002000200020002 /* TutorialPageView.swift */; };
+		AA1111110003000300030003 /* TutorialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2222220003000300030003 /* TutorialMenuView.swift */; };
+		AA1111110004000400040004 /* TutorialLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2222220004000400040004 /* TutorialLessonView.swift */; };
+		BB1111110005000500050005 /* ButtonBuildSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2222220005000500050005 /* ButtonBuildSteps.swift */; };
+		BB1111110006000600060006 /* ButtonBuildTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2222220006000600060006 /* ButtonBuildTutorialView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05472250C5414A0590E66632 /* ParticleBurstButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleBurstButton.swift; sourceTree = "<group>"; };
+		0647B0670DE64907938452AC /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		07D7D2B55C04459D8AF1549D /* AuroraBorealisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraBorealisButton.swift; sourceTree = "<group>"; };
+		11492740B08A4427943A0D2F /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		1DD5977F433744FAA6D3856E /* NeonGlowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonGlowButton.swift; sourceTree = "<group>"; };
+		1E376B7EAA67489A8693EB8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		245E61147F24431489587416 /* GravityFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityFloatButton.swift; sourceTree = "<group>"; };
+		2A04A06E8C404959991C549B /* Buttons_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons_AppApp.swift; sourceTree = "<group>"; };
+		2DC1502EE1AE47F3B25D79C4 /* CircuitBoardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitBoardButton.swift; sourceTree = "<group>"; };
+		310CE5E34E8C449DADDBADBE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		35C0D843E0654D92A8644756 /* RetroPixelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPixelButton.swift; sourceTree = "<group>"; };
+		41982397EF394098BA2968F8 /* GradientWaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientWaveButton.swift; sourceTree = "<group>"; };
+		45DD52BC759D4A8686DD7A82 /* CyberGlitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberGlitchButton.swift; sourceTree = "<group>"; };
+		5EE17731F83C4F65A46D3D72 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		6111E813A8A14B24948F4C36 /* RippleEffectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleEffectButton.swift; sourceTree = "<group>"; };
+		6492B0725A02497B9E81CB72 /* MorphIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphIconButton.swift; sourceTree = "<group>"; };
+		7EBC0C30D4734CD6AFB9BB5A /* TypewriterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterButton.swift; sourceTree = "<group>"; };
+		82661096140C4F709DE1F343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86C3CCA6493E4EEC8F7F3930 /* ElasticJellyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticJellyButton.swift; sourceTree = "<group>"; };
+		99F7D53435EB479182DAC617 /* ButtonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGridView.swift; sourceTree = "<group>"; };
+		9A5B4E67C51844448694D199 /* PulseRingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseRingButton.swift; sourceTree = "<group>"; };
+		A5EDFF0623F247778B2EAB78 /* ThreeDPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDPushButton.swift; sourceTree = "<group>"; };
+		AB91118D5F1142AB8B730F45 /* FuturisticBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturisticBackground.swift; sourceTree = "<group>"; };
+		AFEE5401E38B441C90BAC2D0 /* GlassmorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicButton.swift; sourceTree = "<group>"; };
+		B149F68326624F43A8F0A905 /* MagneticPullButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticPullButton.swift; sourceTree = "<group>"; };
+		B2AE0A2B97D14ADD993570C6 /* Buttons App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttons App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD98E9EA12E4B4E92D6F2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A1C786336C4C23B53C7D11 /* ShimmerShineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerShineButton.swift; sourceTree = "<group>"; };
+		E3B22B4940E549B588D87235 /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		E7407C2016984155B2D13379 /* LiquidMorphButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidMorphButton.swift; sourceTree = "<group>"; };
+		E7EEF9ABF3FF4DB3804DF0EF /* FullScreenButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenButtonView.swift; sourceTree = "<group>"; };
+		FBAD6F22C6CE4552AF44DD78 /* HolographicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolographicButton.swift; sourceTree = "<group>"; };
+		FFE1D13FC5F149DB87B4E0E3 /* ButtonRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRenderer.swift; sourceTree = "<group>"; };
+		AA2222220001000100010001 /* TutorialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialData.swift; sourceTree = "<group>"; };
+		AA2222220002000200020002 /* TutorialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageView.swift; sourceTree = "<group>"; };
+		AA2222220003000300030003 /* TutorialMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMenuView.swift; sourceTree = "<group>"; };
+		AA2222220004000400040004 /* TutorialLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLessonView.swift; sourceTree = "<group>"; };
+		BB2222220005000500050005 /* ButtonBuildSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuildSteps.swift; sourceTree = "<group>"; };
+		BB2222220006000600060006 /* ButtonBuildTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuildTutorialView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C324C27B86BC41CD81BA1E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D32F7F2B687457AA6FD0C43 = {
+			isa = PBXGroup;
+			children = (
+				70EDEFD15D4C4098BB6E0829 /* Buttons App */,
+				3B8F957A5ABA4144B533AB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8F957A5ABA4144B533AB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AE0A2B97D14ADD993570C6 /* Buttons App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB08DFDDC4B426484F606A7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1DD5977F433744FAA6D3856E /* NeonGlowButton.swift */,
+				0647B0670DE64907938452AC /* NeumorphicButton.swift */,
+				AFEE5401E38B441C90BAC2D0 /* GlassmorphicButton.swift */,
+				E7407C2016984155B2D13379 /* LiquidMorphButton.swift */,
+				A5EDFF0623F247778B2EAB78 /* ThreeDPushButton.swift */,
+				41982397EF394098BA2968F8 /* GradientWaveButton.swift */,
+				B149F68326624F43A8F0A905 /* MagneticPullButton.swift */,
+				86C3CCA6493E4EEC8F7F3930 /* ElasticJellyButton.swift */,
+				05472250C5414A0590E66632 /* ParticleBurstButton.swift */,
+				6111E813A8A14B24948F4C36 /* RippleEffectButton.swift */,
+				07D7D2B55C04459D8AF1549D /* AuroraBorealisButton.swift */,
+				45DD52BC759D4A8686DD7A82 /* CyberGlitchButton.swift */,
+				9A5B4E67C51844448694D199 /* PulseRingButton.swift */,
+				E3A1C786336C4C23B53C7D11 /* ShimmerShineButton.swift */,
+				6492B0725A02497B9E81CB72 /* MorphIconButton.swift */,
+				35C0D843E0654D92A8644756 /* RetroPixelButton.swift */,
+				FBAD6F22C6CE4552AF44DD78 /* HolographicButton.swift */,
+				7EBC0C30D4734CD6AFB9BB5A /* TypewriterButton.swift */,
+				2DC1502EE1AE47F3B25D79C4 /* CircuitBoardButton.swift */,
+				245E61147F24431489587416 /* GravityFloatButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		514AE6B873754F29B313B569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E376B7EAA67489A8693EB8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70EDEFD15D4C4098BB6E0829 /* Buttons App */ = {
+			isa = PBXGroup;
+			children = (
+				2A04A06E8C404959991C549B /* Buttons_AppApp.swift */,
+				82661096140C4F709DE1F343 /* ContentView.swift */,
+				9122B8AAD2D74A31B3F243D6 /* Helpers */,
+				8C6098BCBDD846B2B42E8F79 /* Views */,
+				4EB08DFDDC4B426484F606A7 /* Buttons */,
+				DCD98E9EA12E4B4E92D6F2F5 /* Assets.xcassets */,
+				514AE6B873754F29B313B569 /* Preview Content */,
+			);
+			path = "Buttons App";
+			sourceTree = "<group>";
+		};
+		8C6098BCBDD846B2B42E8F79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB91118D5F1142AB8B730F45 /* FuturisticBackground.swift */,
+				310CE5E34E8C449DADDBADBE /* WelcomeView.swift */,
+				11492740B08A4427943A0D2F /* GlassCard.swift */,
+				99F7D53435EB479182DAC617 /* ButtonGridView.swift */,
+				E7EEF9ABF3FF4DB3804DF0EF /* FullScreenButtonView.swift */,
+				AA2222220002000200020002 /* TutorialPageView.swift */,
+				AA2222220003000300030003 /* TutorialMenuView.swift */,
+				AA2222220004000400040004 /* TutorialLessonView.swift */,
+				BB2222220006000600060006 /* ButtonBuildTutorialView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9122B8AAD2D74A31B3F243D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5EE17731F83C4F65A46D3D72 /* HapticManager.swift */,
+				E3B22B4940E549B588D87235 /* ButtonDesign.swift */,
+				FFE1D13FC5F149DB87B4E0E3 /* ButtonRenderer.swift */,
+				AA2222220001000100010001 /* TutorialData.swift */,
+				BB2222220005000500050005 /* ButtonBuildSteps.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D7228CEF5B4AE6A5315B2A /* Buttons App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFC4E2BD3C344199E0DE04C /* Build configuration list for PBXNativeTarget "Buttons App" */;
+			buildPhases = (
+				D57F241044CD441B847F102D /* Sources */,
+				C324C27B86BC41CD81BA1E96 /* Frameworks */,
+				BE33357A26AA4531A459FE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buttons App";
+			productName = "Buttons App";
+			productReference = B2AE0A2B97D14ADD993570C6 /* Buttons App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125735EE22664FAC8E23EFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C7D7228CEF5B4AE6A5315B2A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 59781480C9244F58B288EC9F /* Build configuration list for PBXProject "Buttons App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D32F7F2B687457AA6FD0C43;
+			productRefGroup = 3B8F957A5ABA4144B533AB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D7228CEF5B4AE6A5315B2A /* Buttons App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE33357A26AA4531A459FE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFB7C0ED1FB4F1D8D066B99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57F241044CD441B847F102D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A0E214365A4F0CAFCCE696 /* Buttons_AppApp.swift in Sources */,
+				58324558E9084D28846C75A5 /* ContentView.swift in Sources */,
+				865A5A0E9590488C9E9AF1A1 /* HapticManager.swift in Sources */,
+				58368FD70631498CB1141D05 /* ButtonDesign.swift in Sources */,
+				3752089587904B56B378E23C /* ButtonRenderer.swift in Sources */,
+				8AAFE70330474EDF87131D45 /* FuturisticBackground.swift in Sources */,
+				DBB9E352A59842C2A02BC32D /* WelcomeView.swift in Sources */,
+				86E3F110DD6D40B1B5B7FDE5 /* GlassCard.swift in Sources */,
+				FF6FD6E9808F49DBB88B148C /* ButtonGridView.swift in Sources */,
+				504BB2ED5FD34A89B0906D8A /* FullScreenButtonView.swift in Sources */,
+				28A0908177B44BE68816A08B /* NeonGlowButton.swift in Sources */,
+				7844BE7554A6497F80E8C166 /* NeumorphicButton.swift in Sources */,
+				4EB075ED51F24194880D0F99 /* GlassmorphicButton.swift in Sources */,
+				4DA888CC78234ABB82A04908 /* LiquidMorphButton.swift in Sources */,
+				0EDDAB58A87E4E88A913E255 /* ThreeDPushButton.swift in Sources */,
+				72CF0A92FFE44C30A5B99860 /* GradientWaveButton.swift in Sources */,
+				C4CE45A54FEB4EBE9F1F7E7A /* MagneticPullButton.swift in Sources */,
+				94E25A0C18BA47BAB7E820D0 /* ElasticJellyButton.swift in Sources */,
+				CDB96844D0DE49878D75BA97 /* ParticleBurstButton.swift in Sources */,
+				2C445C8747FB4F28A9550B52 /* RippleEffectButton.swift in Sources */,
+				B9EEAEE6237D4E4492CC3270 /* AuroraBorealisButton.swift in Sources */,
+				EBD9484DA0B640A89617915A /* CyberGlitchButton.swift in Sources */,
+				55254344258245EAA57BDC2B /* PulseRingButton.swift in Sources */,
+				5CCB51A7C16D4451A3C251D6 /* ShimmerShineButton.swift in Sources */,
+				FFBC0005490D45EEA182690D /* MorphIconButton.swift in Sources */,
+				859B837F3F3B44F99ED942EF /* RetroPixelButton.swift in Sources */,
+				595849B7142F4A4884197C2C /* HolographicButton.swift in Sources */,
+				5DB83CBFC6894D978F985C08 /* TypewriterButton.swift in Sources */,
+				9B9D10F95662471F8A438F30 /* CircuitBoardButton.swift in Sources */,
+				118595C50D68460CBF571BE9 /* GravityFloatButton.swift in Sources */,
+				AA1111110001000100010001 /* TutorialData.swift in Sources */,
+				AA1111110002000200020002 /* TutorialPageView.swift in Sources */,
+				AA1111110003000300030003 /* TutorialMenuView.swift in Sources */,
+				AA1111110004000400040004 /* TutorialLessonView.swift in Sources */,
+				BB1111110005000500050005 /* ButtonBuildSteps.swift in Sources */,
+				BB1111110006000600060006 /* ButtonBuildTutorialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15B7F8C8C5F742E782935EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttons App/Preview Content\"";
+				DEVELOPMENT_TEAM = 762FPPX7QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buttons App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Buttonly;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Buttonly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAA4DC82789407FA317D9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttons App/Preview Content\"";
+				DEVELOPMENT_TEAM = 762FPPX7QV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Buttons App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Buttonly;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Buttonly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88B22880400A4BF6BDB50086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASNETPLI = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5D336E5B417444B9E529591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASNETPLI = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59781480C9244F58B288EC9F /* Build configuration list for PBXProject "Buttons App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B22880400A4BF6BDB50086 /* Debug */,
+				E5D336E5B417444B9E529591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFC4E2BD3C344199E0DE04C /* Build configuration list for PBXNativeTarget "Buttons App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B7F8C8C5F742E782935EFF /* Debug */,
+				4FAA4DC82789407FA317D9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 125735EE22664FAC8E23EFE3 /* Project object */;
+}
