@@ -33,3 +33,5 @@ A beautiful collection of 20 animated SwiftUI buttons with interactive tutorials
 ## License
 
 MIT
+
+## Made by Maksymilian Rechnio
